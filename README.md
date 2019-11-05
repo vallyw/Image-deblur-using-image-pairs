@@ -1,12 +1,11 @@
-## Welcome to GitHub Pages
+## Image deblur using noisy/blurred image pairs
 
-You can use the [editor on GitHub](https://github.com/CalmWei/Image-deblur-using-image-pairs/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Image deblurring was bascically achieved by non-deblind method, that is, we first eatimate our blur kernel and then deconvolution using our obtained blurred kernel. So the project can be roughly divided into two parts, kernel estimation and deconvolution. 
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Kernel Estimation
+Basically, the process of image blurring can be actually described as [B = I_2 K]
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
 ```markdown
 Syntax highlighted code block
@@ -17,7 +16,7 @@ Syntax highlighted code block
 
 - Bulleted
 - List
-
+\bigotimes
 1. Numbered
 2. List
 
